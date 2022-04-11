@@ -310,9 +310,10 @@ aside p {
 /*---------------------------------------------------- | || ||| section-------------------------------------------*/
 
 
-.pizza_title, .master_title, .master_new {
+.pizza_title, .master_title, .new_title {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
 
 }
@@ -328,6 +329,7 @@ aside p {
     display:flex;
     justify-content: space-around;
     align-items: center;
+   
 
 }
 
@@ -374,3 +376,36 @@ aside p {
     margin-right: 2px;
 }
 /*--------------------------------------FIN | || ||| SECTION------------------------------------------------*/
+
+#our_new_menu {
+    min-height: 800px;
+    background-image:url(./asset/pizza_manche.webp) ;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.our_new_menu {
+    margin-top: 50px;
+}
+.new_menu {
+    display: flex;
+    justify-content: center;
+}
+/*------------------------------------------TO DO------------------------------*/
+/* 
+-placer les titres
+- faire le rectangle orange
+-faire le menu et les prix
+- faire les  trois suggestions
+*/
+
+.our_new_menu h3 {
+    color:orange;
+}
+
+.pizzeria  {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
