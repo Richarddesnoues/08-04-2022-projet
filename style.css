@@ -355,15 +355,12 @@ aside p {
     width: 100%;
     height: 35px;
     display: flex;
-     /* justify-content: space-between; */
-     align-items: center; 
+    align-items: center; 
     
 
 }
 
-.two:nth-child(2) {
-    margin-right: 6px;
-}
+
 
 .one, .two, .three {
 
@@ -376,4 +373,4 @@ aside p {
 .two, .three {
     margin-right: 2px;
 }
-
+/*--------------------------------------FIN | || ||| SECTION------------------------------------------------*/
