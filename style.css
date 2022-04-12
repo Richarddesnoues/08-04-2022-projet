@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
-    margin: 0;  
+    margin: 0;
     padding: 0;
 }
 
 
-body{
+body {
     width: 70%;
     margin: auto;
 
@@ -33,7 +33,7 @@ header {
 .navbar {
     margin-right: 6em;
     margin-top: 2em;
-   
+
 }
 
 .navbar li {
@@ -50,7 +50,7 @@ header {
     height: auto;
     background-color: transparent;
     position: relative;
-    
+
 
 
 
@@ -103,11 +103,11 @@ a {
     color: white;
     height: 65px;
     margin-top: 2em;
-    
+
 }
 
 .logo h3 {
-    
+
     color: white;
     font-size: 2em;
     margin-right: 1em;
@@ -129,9 +129,9 @@ a {
 /*-------------------------------------------BANNER AND TITLE------------------------------*/
 
 .banner_group {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-  
+
 
 }
 
@@ -144,11 +144,10 @@ a {
 }
 
 .title {
-    width:100%;
-    
-    color: white;
-    position:relative
+    width: 100%;
 
+    color: white;
+    position: relative
 }
 
 .title .bloc1 p {
@@ -187,9 +186,9 @@ a {
 }
 
 .subtitle h2 {
-    
-     padding-top: 10px; 
-     padding-bottom: 10px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 40px;
     margin-right: 20px;
 
@@ -201,9 +200,9 @@ a {
 /*----------------------------------------------WHAT NEW SECTION------------------------------*/
 
 .container_news {
-    background-color:rgb(58, 56, 56);
+    background-color: rgb(58, 56, 56);
     min-height: 500px;
-    display:flex;
+    display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
@@ -212,30 +211,30 @@ a {
 
 .news {
     color: white;
-  
+
 
 }
 
-.pizza_img{
+.pizza_img {
     background-image: url(./asset/pizza_moit2.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: left 70%;
     width: 600px;
     height: 400px;
     position: relative;
-    z-index:1;
-   
+    z-index: 1;
+
 }
 
 .rectangle {
-    width:700px;
-    height:150px;
+    width: 700px;
+    height: 150px;
     background-color: orange;
     position: absolute;
     right: 750px;
     z-index: 2;
-    
+
 }
 
 .what {
@@ -255,51 +254,52 @@ a {
 .what h2 {
 
     font-weight: bolder;
-    
-   
+
+
 }
 
 
 
 
-   
+
 
 .lorem {
-    height:300px;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around; 
+    justify-content: space-around;
     padding-top: 15px;
-    
-    
+
+
 }
 
 .lorem .border {
-    border-left: 2px solid white; 
-    
+    border-left: 2px solid white;
+
     padding-left: 1em;
 }
 
- 
+
 
 aside {
-  height: 500px;
-  width: 200px;
-  background-color: transparent;
-  z-index: 4;
-  margin-left:50px ;
-  font-size: 40px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
- 
-  
+    height: 500px;
+    width: 200px;
+    background-color: transparent;
+    z-index: 4;
+    margin-left: 50px;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
 }
+
 aside p {
     font-size: 1.3em;
-    writing-mode:vertical-rl;
+    writing-mode: vertical-rl;
     transform: rotate(180deg);
-    
+
 }
 
 /*----------------------------------------------------END WHAT NEW SECTION------------------------------------------*/
@@ -310,14 +310,16 @@ aside p {
 /*---------------------------------------------------- | || ||| section-------------------------------------------*/
 
 
-.pizza_title, .master_title, .new_title {
+.pizza_title,
+.master_title,
+.new_title {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 
 }
- 
+
 
 
 
@@ -326,86 +328,321 @@ aside p {
 
 .stick {
     min-height: 350px;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
-   
+
 
 }
 
-.format, .master, .pizza{
+.format,
+.master,
+.pizza {
     width: 20%;
     height: 200px;
     text-align: justify;
     display: flex;
-   
-    justify-content:space-around;
-} 
+
+    justify-content: space-around;
+}
 
 .stick h2 {
-    color:orange;
+    color: orange;
     font-size: 2em;
     display: flex;
     text-align: center;
     margin-left: 5px;
-   
-    
-  
+
+
+
 }
 
-.bat_one, .bat_two, .bat_three {
+.bat_one,
+.bat_two,
+.bat_three {
     width: 100%;
     height: 35px;
     display: flex;
-    align-items: center; 
-    
+    align-items: center;
+    margin-bottom: 30px;
+
 
 }
 
 
 
-.one, .two, .three {
+.one,
+.two,
+.three {
 
-    height:25px;
-    width:5px;
+    height: 25px;
+    width: 5px;
     background-color: orange;
-   
+
 
 }
-.two, .three {
+
+.two,
+.three {
     margin-right: 2px;
 }
+
 /*--------------------------------------FIN | || ||| SECTION------------------------------------------------*/
+
+
+
+
+
+/*-------------------------------------------------- OUR NEW MENU SECTION-------------------------------------*/
+
 
 #our_new_menu {
     min-height: 800px;
-    background-image:url(./asset/pizza_manche.webp) ;
-    display:flex;
-    flex-direction: column;
+    background-image: url(./asset/pizza_manche.webp);
     
+    background-position: left 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+   
+
 }
 
 .our_new_menu {
     margin-top: 50px;
 }
+
 .new_menu {
     display: flex;
     justify-content: center;
 }
+
 /*------------------------------------------TO DO------------------------------*/
-/* 
--placer les titres
-- faire le rectangle orange
--faire le menu et les prix
+
+/*
 - faire les  trois suggestions
 */
 
 .our_new_menu h3 {
-    color:orange;
+    color: orange;
 }
 
-.pizzeria  {
-    font-size: 2em;
+.pizzeria {
+    font-size: 1.5em;
     display: flex;
     justify-content: center;
+}
+
+
+
+
+.new_new_menu {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.new_menu {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2.5em;
+    color: orange;
+    width: 80%;
+    height: 100px;
+    border: 2px solid white;
+    margin: 30px 2px 0px 0px;
+
+}
+
+.new_menu h3 {
+    margin-left: 250px;
+    font-weight: 100;
+
+}
+
+
+
+
+.menu_price h2
+ {
+    color: white;
+    font-size: 1.5em;
+}
+
+.bat_group p, .rectangle_prix p, .rectangle_jaune p, .exter_bat_group p {
+    color: white;
+    font-size: 1.5em;
+}
+
+.menu_price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 65px;
+   
+
+}
+
+
+.bat_group {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+
+
+}
+
+
+.bat_group h2 {
+    margin-left: 10px;
+}
+
+
+.bat_one_one,
+.bat_two_two,
+.bat_three_three {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+
+
+.one_one,
+.two_two,
+.three_three {
+
+    height: 25px;
+    width: 5px;
+    background-color: white;
+
+
+}
+
+.two_two,
+.three_three {
+    margin-right: 2px;
+}
+
+
+
+.un, .deux, .trois {
+    display: flex;
+    width: 20px;
+}
+
+
+
+
+
+.bat_one_group {
+    margin-top: 63px;
+}
+
+.bat_one_group p {
+    display: flex;
+    justify-self: flex-end;
+}
+
+
+
+
+.super_bat_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: orange;
+    width: 800px;
+    height: 300px;
+
+
+}
+
+
+.rectangle_prix {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50px;
+    height: 250px;
+    background-color: transparent;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+.rectangle_jaune {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin-right: 100px;
+
+    width: 50px;
+    height: 250px;
+    background-color: yellow;
+
+}
+
+
+.rectangle_jaune p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.new_bat_group {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.exter_bat_group {
+    width: 800px;
+    height: 100px;
+   
+}
+
+
+.bat_two_two {
+    width:500px;
+}
+.rectangle_opaque {
+    display: flex;
+    flex-direction: column;
+    background-color:  rgba(255,255,0,0.50);
+    
+    height: 50px;
+    width: 50px;
+    margin-right:151px;
+    padding-right: 25px;
+}
+
+
+.rectangle_opaque p {
+    margin-top: 5px;
+}
+
+.new_rectangle_prix {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:50px;
+    height: fit-content;
+    
+    margin-left: 30px;
 }
