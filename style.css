@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 
@@ -683,3 +684,67 @@ aside p {
 
 
 /*---------------------------------------------------------------FIN DE OUR MENU-----------------------------------------------*/
+
+
+/*--------------------------------------------------------------ABOUT OUR CONCEPT SECTION--------------------------------------*/
+
+#our_concept{
+    min-height: 400px;
+    background-color:rgb(58, 56, 56) ;
+    display: flex;
+   
+}
+
+.concept {
+    width: 700px;
+    height: 250px;
+    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-justify: auto;
+    text-align: center;
+    
+ 
+}
+
+
+
+.concept h2 {
+    color: orange;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+
+
+.concept_title {
+    font-weight: 900;
+}
+
+
+.concept p {
+    color: white;
+}
+
+.mid_nav ul li {
+     color: white; 
+    text-decoration: none;
+    list-style: none;
+    font-weight: bolder;
+}
+
+.mid_nav {
+    width: 100%;
+}
+
+.mid_nav ul {
+    display: flex;
+   justify-content: space-around;
+
+}
+
+/*--------------------------------------------------------END ABOUT CONCEPT SECTION------------------------------------------*/
