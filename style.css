@@ -3,13 +3,14 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 
 
 body {
-    width: 70%;
+
     margin: auto;
+   
 
 }
 
@@ -59,11 +60,11 @@ header {
 }
 
 .nav_item :hover {
-    color: black;
+    color: orange;
 }
 
 .navbar:focus {
-    color: black
+    color: orange;
 }
 
 .nav_menu {
@@ -142,56 +143,59 @@ a {
     width: 100%;
     height: 150px;
     background-color: orange;
-    margin-top: 150px
+    margin-top: 150px;
 }
 
 .title {
     width: 100%;
 
     color: white;
-    position: relative
+    position: relative;
 }
 
 .title .bloc1 p {
     font-size: 100px;
+    
 }
 
 .title .bloc1 .grand {
+    font-weight: 900; 
     text-transform: uppercase;
+    margin-top: -20px;
+
 
 }
 
 .title .bloc1 {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: -140px;
-    left: 150px;
+    margin-left: 100px;
 }
 
 .openning {
-    position: absolute;
-    top: 70px;
+    margin-top: -30px;
+    line-height: 100px;
+    font-weight: 100;
 }
 
 .subtitle {
+
     display: flex;
     justify-content: end;
     border: 3px solid white;
     width: 270px;
-    position: absolute;
-    right: 250px;
-    top: -35px;
-    text-transform:uppercase;
+    margin-top: -70px;
+    align-self: center;
+    margin-left: 500px;
+    text-transform: capitalize;
     background-color: orange;
-
 }
 
 .subtitle h2 {
 
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 27px;
+    font-size: 40px;
     margin-right: 20px;
 
 }
@@ -205,10 +209,27 @@ a {
     background-color: rgb(58, 56, 56);
     min-height: 500px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: end;
     align-items: center;
-    justify-content: space-between;
+    
+    
+}
 
+.little {
+    display: flex;
+    align-items: center;
+    height:400px;
+    width:80%;
+    background-color: rgb(58, 56, 56);
+    background-image: url(./asset/pizza_moit2.jpg);
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-size: contain;
+    background-position: right 0px; 
+    margin-top: 20px;
+    
+    
 }
 
 .news {
@@ -217,37 +238,29 @@ a {
 
 }
 
-.pizza_img {
-    background-image: url(./asset/pizza_moit2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left 70%;
-    width: 600px;
-    height: 400px;
-    position: relative;
-    z-index: 1;
 
-}
+
+
 
 .rectangle {
-    width: 700px;
+    display: flex;
+    flex-direction: row;
+    
+    width: 900px;
     height: 150px;
-    background-color: orange;
-    position: absolute;
-    right: 750px;
-    z-index: 2;
+    background-color:orange;
+    
 
 }
 
 .what {
-    height: 400px;
+    height: 0px;
     font-size: 25px;
-    position: absolute;
-    right: 850px;
-    z-index: 3;
+   
+    
     /* padding-bottom: 0.5em; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: space-evenly;
 
 
@@ -256,24 +269,36 @@ a {
 .what h2 {
 
     font-weight: bolder;
+    
 
 
 }
 
+.what_new {
+    display: flex;
+    
 
+}
 
 
 
 
 .lorem {
-    height: 300px;
+    height:300px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding-top: 15px;
+    margin-left: 100px;
+    justify-content: space-around; 
+    margin-top: -90px;
+   
 
 
 }
+
+.lorem p {
+    margin-top: 40px;
+} 
+
 
 .lorem .border {
     border-left: 2px solid white;
@@ -285,14 +310,12 @@ a {
 
 aside {
     height: 500px;
-    width: 200px;
+    width: fit-content;
     background-color: transparent;
-    z-index: 4;
-    margin-left: 50px;
+    margin-top: -300px;
+    margin-left:50px ;
     font-size: 40px;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
 
 
 }
@@ -403,13 +426,13 @@ aside p {
 #our_new_menu {
     min-height: 800px;
     background-image: url(./asset/pizza_manche.webp);
-    
+
     background-position: left 40px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
-   
+
 
 }
 
@@ -459,24 +482,32 @@ aside p {
 
 }
 
+.pizzeria h3 {
+    font-weight: 900;
+}
+
+
+
 .new_menu h3 {
-    margin-left: 250px;
     font-weight: 100;
+    margin-left:25%;
 
 }
 
 
 
 
-.menu_price h2
- {
+.menu_price h2 {
     color: white;
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
-.bat_group p, .rectangle_prix p, .rectangle_jaune p, .exter_bat_group p {
+.bat_group p,
+.rectangle_prix p,
+.rectangle_jaune p,
+.exter_bat_group p {
     color: white;
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 .menu_price {
@@ -484,17 +515,22 @@ aside p {
     flex-direction: column;
     align-items: flex-end;
     margin-top: 65px;
-   
+    min-height: 800px;
+
 
 }
 
 
 .bat_group {
-    height: 300px;
+
+    height: 500px;
     width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-right: 500px;
+    background-color: orange;
+   
 
 
 
@@ -502,7 +538,8 @@ aside p {
 }
 
 
-.bat_group h2, .exter_bat_group h2 {
+.bat_group h2,
+.exter_bat_group h2 {
     margin-left: 10px;
     text-transform: uppercase;
 }
@@ -540,9 +577,11 @@ aside p {
 
 
 
-.un, .deux, .trois {
+.un,
+.deux,
+.trois {
     display: flex;
-    width: 20px;
+    width: 25px;
 }
 
 
@@ -567,23 +606,42 @@ aside p {
     justify-content: center;
     align-items: flex-end;
     background-color: orange;
-    width: 800px;
-    height: 300px;
+    width: 80%;
+    height: 500px;
 
 
 }
 
 
 .rectangle_prix {
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 50px;
-    height: 250px;
-    background-color: transparent;
+    height: 500px;
     align-items: flex-end;
+    
+    
+    
+    
+    
 }
 
+.uno_grande {
+    height: 135px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.uno {
+    height: 80px;
+}
+
+.dos {
+    height: 135px;
+}
 
 
 
@@ -593,52 +651,85 @@ aside p {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    
 
     margin-right: 100px;
 
     width: 50px;
-    height: 250px;
+    height: 500px;
     background-color: yellow;
-
+    
 }
 
 
 .rectangle_jaune p {
-    font-size: 24px;
+    font-size: 2.5em;
     font-weight: bold;
+}
+
+.zero_zero {
+    height:135px;
+    display: flex;
+    align-items: center;
+  
+}
+
+
+.zero {
+    height: 135px;
+}
+
+.quatre {
+    height: 80px;
 }
 
 
 .new_bat_group {
     display: flex;
-    justify-content: space-between;
-    margin-left: 50px;
+    justify-content:flex-end ;
+    
+   
+    
 }
 
 .exter_bat_group {
-    width: 800px;
-    height: 100px;
+    width: 80%;
    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+
+}
+
+.bat_two_group {
+    width: 500px;
+    margin-right: 500px;
 }
 
 
 .bat_two_two {
-    width:500px;
+    width: 80%;
+    margin-right: 500px;
 }
+
 .rectangle_opaque {
     display: flex;
     flex-direction: column;
-    background-color:  rgba(255,255,0,0.50);
+    background-color: rgba(255, 255, 0, 0.50);
     
     height: 50px;
     width: 50px;
-    margin-right:151px;
-    padding-right: 25px;
+    margin-right: 100px;
+    
 }
 
 
 .rectangle_opaque p {
     margin-top: 5px;
+   
 }
 
 .new_rectangle_prix {
@@ -646,10 +737,10 @@ aside p {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    width:50px;
+    width: 50px;
     height: fit-content;
+
     
-    margin-left: 30px;
 }
 
 /*-----------------------------------------------------FIN MENU PRIX--------------------------------------------------------------*/
@@ -658,28 +749,32 @@ aside p {
 
 
 .suggestions {
-    width: 900px;
+    width: 50%;
     height: 120px;
     background-color: rgba(0, 0, 0, 0.40);
-    margin: auto;
-    margin-left: 280px;
-    margin-bottom: 20px;
+    align-self: center;
+    margin-right: 350px;
+    
+    margin-top: 40px;
     color: white;
     border: 2px solid white;
-   
+
 }
 
 
 
-.bat_un_un, .bat_deux_deux, .bat_trois_trois {
+.bat_un_un,
+.bat_deux_deux,
+.bat_trois_trois {
     width: 500px;
     display: flex;
     margin-top: 10px;
-    margin-left: 300px;
-    
-   
-    
+    margin-left: 150px;
+
+
+
 }
+
 /*---------------------------------------------------------------FIN DE SUGGESTION------------------------------------------*/
 
 
@@ -688,17 +783,17 @@ aside p {
 
 /*--------------------------------------------------------------ABOUT OUR CONCEPT SECTION--------------------------------------*/
 
-#our_concept{
+#our_concept {
     min-height: 400px;
-    background-color:rgb(58, 56, 56) ;
+    background-color: rgb(58, 56, 56);
     display: flex;
-   
+
 }
 
 .concept {
     width: 700px;
     height: 250px;
-    
+
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -706,8 +801,8 @@ aside p {
     justify-content: space-between;
     text-justify: auto;
     text-align: center;
-    
- 
+
+
 }
 
 
@@ -731,7 +826,7 @@ aside p {
 }
 
 .mid_nav ul li {
-     color: white; 
+    color: white;
     text-decoration: none;
     list-style: none;
     font-weight: bolder;
@@ -743,7 +838,7 @@ aside p {
 
 .mid_nav ul {
     display: flex;
-   justify-content: space-around;
+    justify-content: space-around;
 
 }
 
