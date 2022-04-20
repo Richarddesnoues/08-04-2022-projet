@@ -928,7 +928,7 @@ aside p {
     height: 100px;
     background-color: orange;
     color: white;
-    
+
     font-size: 2.5em;
     text-transform: uppercase;
     font-weight: 700;
@@ -937,7 +937,9 @@ aside p {
 }
 
 
-.masterclass, .waiting, .apply {
+.masterclass,
+.waiting,
+.apply {
 
     margin-right: 300px;
     margin-top: 100px;
@@ -948,10 +950,10 @@ aside p {
 /*--------------------------------------------------------SECTION GALLERY----------------------------------------------------*/
 
 #gallery {
-    background-color:rgb(58, 56, 56); 
+    background-color: rgb(58, 56, 56);
 }
 
-
+/*------------------------------GALLERY BANNER------------------------------*/
 
 
 .yellow_square {
@@ -966,7 +968,7 @@ aside p {
     text-transform: uppercase;
     color: orange;
     font-size: 1.5em;
-    
+
 }
 
 .gallery_banner h2 {
@@ -979,4 +981,36 @@ aside p {
     display: flex;
     justify-content: flex-end;
 
+}
+
+/*-------------------END GALLERY BANNER---------------------------*/
+
+
+
+.grid {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 5fr 2fr 3fr;
+    grid-template-rows:content;
+    grid-template-areas: "grande small medium";
+    gap: 10px
+}
+
+.grande {
+    background-image:url(./asset/gallery_pizza_big.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.medium {
+    background-image: url(./asset/gallery_pizza_medium.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.small {
+    background-image: url(./asset/gallery_pizza_small.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
