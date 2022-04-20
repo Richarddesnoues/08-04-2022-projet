@@ -985,7 +985,7 @@ aside p {
 
 /*-------------------END GALLERY BANNER---------------------------*/
 
-
+/*-------------------GALLERY WITH GRID-------------------------*/
 
 .grid {
     height: 500px;
@@ -1013,4 +1013,166 @@ aside p {
     background-image: url(./asset/gallery_pizza_small.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*------------------------END GALLERY WITH GRID-------------------------*/
+
+/*-----------------------------------------GALLERY BOTTOM-----------------*/
+
+
+.gallery {
+    min-height:500px; 
+}
+
+
+
+.gallery_title_bottom {
+    height: 200px;
+    width: 1200px;
+   
+    font-size: 1.5em;
+
+}
+
+
+/*--------------------------------------TO DO RéGLER LE PROBLEME DU BLOC LONG SQUARE QUI SE DéTACHE LORS DE LA RéDUCTION DE LA FENêTRE--------------*/
+.very_long_square {
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    margin-left:503px
+}
+
+
+
+
+
+.gallery_banner_bottom h2 {
+    font-weight: 900;
+    padding-top: 110px;
+    padding-left: 50px;
+    text-transform: lowercase;
+    color: white;
+}
+
+.gallery_banner_bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.long_square {
+    width: 200px;
+    height: 400px;
+    background-color: orange;
+    
+    
+}
+
+.offset {
+    width:900px;
+    min-height: 450px;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+    padding-top: 20px;
+    
+}
+
+.super_offset {
+    width:450px;
+    text-justify: auto;
+    line-height: 40px;
+    margin-top: 25px;
+    
+}
+
+.name {
+    text-align: end;
+    margin-right: 40px;
+    margin-top: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+
+/*---------------FIND US SOCIAL AND WEB SITE---------------*/
+.social {
+   height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
+
+.findus_here {
+    border-left: 2px solid white;
+    padding-left: 10px;
+}
+
+
+
+
+.findus_social {
+    display: flex;
+    gap:10px
+}
+
+
+
+
+
+/*.circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+   
+
+}*/
+
+
+.fa-twitter, .fa-instagram, .fa-facebook, .fa-whatsapp {
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    color:rgb(58, 56, 56);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+
+}
+
+.ask {
+    border-left: 2px solid white;
+    padding-left: 10px;
+}
+
+.findus_web {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.findus_web a {
+    color: orange;
+
+}
+
+/*-------------------------------------------END SOCIAL-----------------------------------*/
+
+
+/*------------------------------------------------FOOTER-----------------------------------*/
+
+
+footer {
+    min-height: 400px;
+    background-color: rgb(255, 150, 83);
 }
